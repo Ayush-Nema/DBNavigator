@@ -1,6 +1,8 @@
 import psycopg2
 import sys
 import logging
+import pandas as pd
+
 from sqlalchemy import URL, create_engine
 from sqlalchemy.orm import sessionmaker
 
